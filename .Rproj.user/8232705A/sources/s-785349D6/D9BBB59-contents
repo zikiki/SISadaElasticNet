@@ -1,0 +1,13 @@
+Package: SISadaElasticNet
+Type: Package
+Title: Adaptive Elastic Net for Ultra High Dimensional Data
+Version: 0.1.0
+Author: Ziqi Zang
+Maintainer: Ziqi Zang
+Description: This package implements the adaptive elastic net with SIS for ultra high dimensional data. 
+License: 
+Encoding: UTF-8
+LazyData: true
+Imports:
+  glmnet
+RoxygenNote: 6.1.0.9000

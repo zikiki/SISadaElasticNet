@@ -1,0 +1,14 @@
+Package: SISadaElasticNet
+Type: Package
+Title: Adaptive Elastic Net for Ultra High Dimensional Data
+Version: 0.1.0
+Authors@R: c(
+    person("Ziqi", "Zang", email = "ziqizang@ucla.edu", role = c("aut", "cre")))
+Maintainer: Ziqi Zang <ziqizang@ucla.edu>
+Description: This package implements the adaptive elastic net with SIS for ultra high dimensional data. 
+License: 
+Encoding: UTF-8
+LazyData: true
+Imports: glmnet, ncvreg (>= 3.8-0), foreach, mvtnorm, survival, Matrix, stats
+Suggests: knitr, rmarkdown, doParallel
+RoxygenNote: 6.1.0.9000
